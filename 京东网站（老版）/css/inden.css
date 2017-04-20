@@ -1,0 +1,252 @@
+@charset "utf-8";
+/* CSS Document */
+
+.banner .cen{width:730px; height:454px;float:left;margin:12px 10px 0;}
+.banner .right{float:right;width:248px;height:454px;border:1px solid #e4e4e4;margin-top:12px;}
+.banner .right .top_2{height:162px;}
+.banner .right .top_1_2{height:32px;padding:0 15px; border-bottom:1px dotted #e8e8e7;}
+.banner .right .top_2 h3{float:left;font:16px/32px '宋体';}
+.banner .right .top_1_2 a{float:right;font:12px/32px "宋体";}
+.banner .right .top_1_2:hover a{color:#c81623;}
+.banner .right{height:163px;}
+.banner .right .top_2 li{font:12px/24px "宋体";padding-left:16px;}
+.banner .right .top_2 span{font-weight:bold;padding-right:6px;}
+.banner .right .zhong li{ width:62px;height:70px; border-right:1px solid #e8e8e7;border-bottom:1px solid #e8e8e7;float:left;position:relative;cursor:pointer;}
+.banner .right .zhong ul{width:260px;height:212px;border:1px solid #e8e8e7;border-top:none;}
+.banner .right .zhong{width:248px; overflow:hidden;border-right:1px solid #e8e8e7;text-align:center;}
+.banner .right .zhong li i{width:25px;height:25px;background:url(../images/icon1.png) no-repeat 0px 0px;position:absolute;top:12px;left:20px;}
+.banner .right .zhong li span{margin-top:40px;line-height:110px;font-size:12px;color:#666666;}
+.banner .right .zhong li span:hover{color:#cd2b37;}
+.banner .right .zhong li .on_1{background:url(../images/icon1.png) no-repeat 0px -25px;}
+.banner .right .zhong li .on_2{background:url(../images/icon1.png) no-repeat 0px -52px;}
+.banner .right .zhong li .on_3{background:url(../images/icon1.png) no-repeat 0px -75px;}
+.banner .right .zhong li .on_4{background:url(../images/icon1.png) no-repeat 0px -100px;}
+.banner .right .zhong li .on_5{background:url(../images/icon1.png) no-repeat 0px -125px;}
+.banner .right .zhong li .on_6{background:url(../images/icon1.png) no-repeat 0px -151px;}
+.banner .right .zhong li .on_7{background:url(../images/icon1.png) no-repeat 0px -175px;}
+.banner .right .zhong li .on_8{background:url(../images/icon1.png) no-repeat 0px -200px;}
+.banner .right .zhong li .on_9{background:url(../images/icon1.png) no-repeat 0px -225px;}
+.banner .right .zhong li .on_10{background:url(../images/icon1.png) no-repeat 0px -250px;}
+.banner .right .zhong li .on_11{background:url(../images/icon1.png) no-repeat 0px -272px;}
+.banner .right .bot{width:250px; height:75px;margin:3px 0 0 0;}
+.banner .bot_1{width:1210px;height:150px;margin:0 auto;margin-top:13px;}
+.banner .bot_1 .bot_1_1{width:210px;height:150px;background:url(../images/homebg.png) no-repeat -213px -136px;float:left;}
+.banner .bot_1 .bot_1_2{float:left;}
+.banner .bot_1 .bot_1_3{float:left;}
+.banner .bot_1 .bot_1_4{float:left;}
+.banner .bot_1 .bot_1_5{float:left;}
+.banner_1{width:1210px;margin:0 auto;}
+.banner_1 .ban h3{font:22px/38px "宋体";color:#3374b1;float:left;height:38px;}
+.banner_1 .ban span{ width:202px;float:left;height:33px;background:url(../images/homebg.png) no-repeat 6px -90px ;}
+.banner_1 .ban .huan{font:12px/38px "宋体";color:#666666;float:right;height:38px;}
+.banner_1 .ban .huan i{width:28px;height:28px;background:url(../images/homebg.png) no-repeat -344px 4px;display:inline-block;}
+.banner_1 .liuxing{width:1208px;height:232px;border:1px solid #ededed;border-top:1px solid #d1d1d1;margin:10px 0;position:relative;}
+.banner_1 .liuxing i{width:365px;height:5px;background:url(../images/homebg.png) no-repeat 0 -124px;position:absolute;top:-3px;right:0;}
+.banner_1 .liuxing:hover i{width:365px;height:5px;background:url(../images/homebg.png) no-repeat 0 -124px;position:absolute;top:-3px;right:0;animation:run 1s;}
+.banner_1 .liuxing .bao{float:left;}
+.banner_1 .liuxing .mai{width:140px;height:65px; padding:0 30px;text-align:center;border-right:1px dotted #e6e6e6;margin-top:20px;}
+.banner_1 .liuxing img{display:inline-block;text-align:center;margin:13px 0 0 33px;}
+.banner_1 .liuxing .mai p{font:12px/18px "宋体";color:#82669b;}
+.banner_1 .liuxing .mai span{text-align:left;color:red;}
+.banner_1 .liuxing .mai a{display:inline-block;}
+@keyframes run{0%{width:800px;}100%{width:0;}}
+.banner_2{width:1210px;margin:0 auto;}
+.banner_2 h3{font:20px/32px "宋体";}
+.banner_2 .neirong{border:1px solid #e0e0e0;height:409px;}
+.banner_2 .neirong .left{width:400px;height:405px;background:#f7f7f7;float:left;}
+.banner_2 .left .tupian{height:246px;position:relative;overflow:hidden;}
+.banner_2 .left .tupian h4{text-align:center;height:40px;line-height:40px;border-bottom:1px dotted #e0e0e0;margin:0 20px;}
+.banner_2 .left .tupian img{display:inline-block;}
+.banner_2 .left .tupian .suoni{position:absolute;top:121px;left:45px;}
+.banner_2 .left .tupian i{font:16px/30px "宋体";font-weight:bold;}
+.banner_2 .left .tupian p{font:12px/24px "宋体";color:#333333;}
+.banner_2 .left .tupian span{font:14px/16px "宋体";color:#c81623}
+.banner_2 .miaosha{width:200px;height:156px;position:relative;float:left;}
+.banner_2 .miaosha .mi{float:left;position:absolute;top:0px;left:0px;margin:40px 0 0 10px;}
+.banner_2 .miaosha .mi h4{font:16px/30px "宋体";}
+.banner_2 .miaosha .mi p{font:12px/21px "宋体";}
+.banner_2 .miaosha .mi .guo{color:#c81623;}
+.banner_2 .miaosha .ni{float:right;font:12px/24px "宋体";margin-top:5px;}
+.banner_2 .neirong .inner{float:left;}
+.banner_2 .neirong .inner_1_1{width:187px;height:41px;text-align:center;line-height:41px;border-bottom:1px dotted #e0e0e0;margin:0 20px;}
+.banner_2 .neirong .inner_1_2{position:relative;}
+.banner_2 .neirong .inner_1_2 .dingwei{position:absolute;top:76px;left:12px;font-size:12px;}
+.banner_2 .neirong .inner_1_2 .dingwei i{font:16px/30px "宋体";font-weight:bold;}
+.banner_2 .neirong .inner_1_2 .dingwei p{font:12px/24px "宋体";color:#333333;}
+.banner_2 .neirong .inner_1_2 .dingwei span{font:14px/16px "宋体";color:#c81623}
+.banner_2 .neirong .inner_2 {width:187px;height:156px;position:relative;}
+.banner_2 .neirong .inner_2 .dingwei_1{position:absolute;top:48px;left:12px;font-size:12px;}
+.banner_2 .neirong .inner_2 .dingwei_1 i{font:16px/30px "宋体";font-weight:bold;}
+.banner_2 .neirong .inner_2 .dingwei_1 p{font:12px/24px "宋体";color:#333333;}
+.banner_2 .neirong .inner_2 .dingwei_1 span{font:14px/16px "宋体";color:#c81623}
+.banner_2 .neirong .bot_1 ul{padding-left:6px;}
+.banner_2 .neirong .bot_1{height:405px;}
+.banner_2 .neirong .bot_1 li{float:left;border-right:1px dotted #e0e0e0;border-bottom:1px dotted #e0e0e0;margin:0 8px;width:72px ;height:53px;}
+.banner_2 .neirong .bot_1 img{}
+.banner_2 .neirong .bot_1 a{display:inline-block; width:85px;text-align:center;margin:0 -10px;}
+.chuang{width:1210px;margin:0 auto;margin-top:20px;}
+.banner_3{width:1210px;margin:0 auto;}
+.banner_3 .tou{float:left; height:42px; width:140px;}
+.banner_3 .tou p{}
+.banner_3 .tou .lou{width:36px;height:26px;background:url(../images/product_home_1.0.0.png) no-repeat 0px -40px;float:left;}
+.banner_3 .tou .lou:hover{background:url(../images/product_home_1.0.0.png) no-repeat 0px -5px ;}
+.banner_3 .nv ul{float:right;border:1px solid #ededed;border-bottom:0;}
+.banner_3 .nv li{float:left;text-align:center;position:relative;height:38px;}
+.banner_3 .nv li a{padding:0 17px;line-height:35px; border-left:1px solid #ffffff;border-right:1px solid #ffffff;border-top:3px solid #FFFFFF;z-index:2px; display:block;}
+.banner_3 .nv ul i{width:1px;height:14px;background:#cccccc;position:absolute;top:10px;left:0;}
+.banner_3 .nv ul li:hover a{border:3px solid red;border-bottom:0;border-left:1px solid #c81623;border-right:1px solid #c81623;margin-left:-1px; margin-top:-1px; position:relative; padding-left:18px; z-index:3; height:40px; line-height:38px; background:#fff;}
+.banner_3 .main{width:1210px;height:638px;margin:0 auto;border-top:1px solid #c81623;position:relative;}
+.banner_3 .main .zuo{float:left;width:330px;height:640px;}
+.banner_3 .main .donghua{font-size:0;position:relative;}
+.banner_3 .main .donghua img{width:330px;height:346px;}
+.banner_3 .main .donghua a:before{ width:70px;height:350px; background-image:radial-gradientc(left,rgba(248,248,248,1.00) 0%,rgba(248,162,164,1.00) 50%,rgba(227,244,184,1.00) 100%);position:absolute;top:1px;left:1px;display:block;}
+.banner_3 .main .ding{width:330px;height:92px;background:rgba(172,165,165,0.30);position:absolute;top:254px;left:0;}
+.banner_3 .main .ding  li{float:left;display:inline-block;line-height:48px;text-align:center;}
+.banner_3 .main .ding  a{margin:0 23px;}
+
+.banner_3 .main .ding li i{width:26px;height:26px;background:url(../images/clothesicon.png) no-repeat 0px 0px ;display:inline-block;vertical-align:middle;}
+.banner_3 .main .ding li .yi{background:url(../images/clothesicon.png) no-repeat 0px -26px ;}
+.banner_3 .main .ding li .er{background:url(../images/clothesicon.png) no-repeat 0px -51px ;}
+.banner_3 .main .ding li .san{background:url(../images/clothesicon.png) no-repeat 0px -78px ;}
+.banner_3 .main .ding li .si{background:url(../images/clothesicon.png) no-repeat 0px -104px ;}
+.banner_3 .main .ding li .wu{background:url(../images/clothesicon.png) no-repeat 0px -130px ;}
+.banner_3 .main .uu{background:#f5f5f5;height:128px;width:328px;}
+.banner_3 .main .left_left{width:165px;float:left}
+.banner_3 .main .left_left li{float:left;padding:0 9px;}
+.banner_3 .main .left_left a{font:14px/24px "宋体";margin-right:5px;}
+.banner_3 .main .left_right{}
+.banner_3 .main .left_right li{float:left;padding:0 9px;}
+.banner_3 .main .left_right a{font:14px/24px "宋体";margin-right:5px;}
+.banner_3 .main .zong{width:438px; float:left;font-size:0;}
+.banner_3 .main .you{float:left;width:438px;}
+.banner_3 .main .you ul{font-size:0;}
+.banner_3 .main .you li{}
+.banner_3 .main .you .shang{float:left;} 
+
+.banner_3 .main .you .youbian{float:right;}
+.banner_3 .main .you .youbian .jiuni{height:314px;}
+.xiamian{width:1210px;height:66px;background:#f7f7f7;margin:10px auto;}
+.xiamian ul li{float:left;width:120px;border-right:1px solid #cccccc;height:66px;text-align:center;}
+
+.xiamian ul a{margin-top:8px;display:inline-block;}
+/*第二个模块——头部*/
+.banner_4{width:1210px;margin:0 auto;}
+.banner_4 .tou{float:left; height:42px; width:140px;}
+.banner_4 .tou p{}
+.banner_4 .tou .lou{width:36px;height:26px;background:url(../images/product_home_1.0.0.png) no-repeat 0px -40px;float:left;}
+.banner_4 .tou .lou:hover{background:url(../images/product_home_1.0.0.png) no-repeat 0px -5px ;}
+.banner_4 .nv ul{float:right;border:1px solid #ededed;border-bottom:0;}
+.banner_4 .nv li{float:left;text-align:center;position:relative;height:38px;}
+.banner_4 .nv li a{padding:0 17px;line-height:35px; border-left:1px solid #ffffff;border-right:1px solid #ffffff;border-top:3px solid #FFFFFF;z-index:2px; display:block;}
+.banner_4 .nv ul i{width:1px;height:14px;background:#cccccc;position:absolute;top:10px;left:0;}
+.banner_4 .nv ul li:hover a{border:3px solid red;border-bottom:0;border-left:1px solid #c81623;border-right:1px solid #c81623;margin-left:-1px; margin-top:-1px; position:relative; padding-left:18px; z-index:3; height:40px; line-height:38px; background:#fff;}
+/*第二个模块——内容*/
+.banner_4 .main{width:1210px;height:474px;margin:0 auto;border-top:1px solid #c81623;position:relative;}
+.banner_4 .main .zuo{float:left;width:210px;height:474px;}
+.banner_4 .main .donghua{font-size:0;position:relative;}
+.banner_4 .main .donghua img{width:210px;height:346px;}
+.banner_4 .main .donghua a:before{ width:70px;height:350px; background-image:radial-gradientc(left,rgba(248,248,248,1.00) 0%,rgba(248,162,164,1.00) 50%,rgba(227,244,184,1.00) 100%);position:absolute;top:1px;left:1px;display:block;}
+.banner_4 .main .ding{width:210px;height:92px;background:rgba(172,165,165,0.30);position:absolute;top:254px;left:0;}
+.banner_4 .main .ding  li{float:left;display:inline-block;line-height:48px;text-align:center;}
+.banner_4 .main .ding  a{margin:0 23px;}
+
+.banner_4 .main .ding li i{width:26px;height:26px;background:url(../images/cosmeticsicon.png) no-repeat 0px 0px ;display:inline-block;vertical-align:middle;}
+.banner_4 .main .ding li .yi{background:url(../images/cosmeticsicon.png) no-repeat 0px -26px ;}
+.banner_4 .main .ding li .er{background:url(../images/cosmeticsicon.png) no-repeat 0px -51px ;}
+.banner_4 .main .ding li .san{background:url(../images/cosmeticsicon.png) no-repeat 0px -78px ;}
+.banner_4 .main .uu{background:#f5f5f5;height:121px;width:210px;text-align:center;}
+.banner_4 .main .uu .sd{font:14px/25px "宋体";}
+.banner_4 .main .uu p{float:left;display:inline-block;margin:0 10px;color:#666666;}
+.banner_4 .main .uu a{color:#666666;}
+.banner_4 .main .zong{width:337px; float:left;font-size:0;}
+.banner_4 .main .you{float:left;width:660px;}
+.banner_4 .main .you ul{font-size:0;}
+.banner_4 .main .you li{}
+.banner_4 .main .you .shang{float:left;} 
+
+.banner_4 .main .you .youbian{float:right;}
+.banner_4 .main .you .youbian .jiuni{height:314px;}
+/*第三个模块——头部*/
+.banner_5{width:1210px;margin:0 auto;}
+.banner_5 .tou{float:left; height:42px; width:140px;}
+.banner_5 .tou p{}
+.banner_5 .tou .lou{width:36px;height:26px;background:url(../images/product_home_1.0.0.png) no-repeat 0px -40px;float:left;}
+.banner_5 .tou .lou:hover{background:url(../images/product_home_1.0.0.png) no-repeat 0px -5px ;}
+.banner_5 .nv ul{float:right;border:1px solid #ededed;border-bottom:0;}
+.banner_5 .nv li{float:left;text-align:center;position:relative;height:38px;}
+.banner_5 .nv li a{padding:0 17px;line-height:35px; border-left:1px solid #ffffff;border-right:1px solid #ffffff;border-top:3px solid #FFFFFF;z-index:2px; display:block;}
+.banner_5 .nv ul i{width:1px;height:14px;background:#cccccc;position:absolute;top:10px;left:0;}
+.banner_5 .nv ul li:hover a{border:3px solid red;border-bottom:0;border-left:1px solid #c81623;border-right:1px solid #c81623;margin-left:-1px; margin-top:-1px; position:relative; padding-left:18px; z-index:3; height:40px; line-height:38px; background:#fff;}
+/*第三个模板——内容*/
+.banner_5 .main{width:1210px;height:474px;margin:0 auto;border-top:1px solid #c81623;position:relative;}
+.banner_5 .main .zuo{float:left;width:330px;height:474px;}
+.banner_5 .main .donghua{font-size:0;position:relative;}
+.banner_5 .main .donghua img{width:330px;height:238px;}
+.banner_5 .main .donghua a:before{ width:70px;height:350px; background-image:radial-gradientc(left,rgba(248,248,248,1.00) 0%,rgba(248,162,164,1.00) 50%,rgba(227,244,184,1.00) 100%);position:absolute;top:1px;left:1px;display:block;}
+.banner_5 .main .ding{width:330px;height:47px;background:rgba(172,165,165,0.30);position:absolute;top:192px;left:0;}
+.banner_5 .main .ding  li{float:left;display:inline-block;line-height:48px;text-align:center;}
+.banner_5 .main .ding  a{margin:0 23px;}
+
+.banner_5 .main .ding li i{width:26px;height:26px;background:url(../images/clothesicon.png) no-repeat 0px 0px ;display:inline-block;vertical-align:middle;}
+.banner_5 .main .ding li .yi{background:url(../images/clothesicon.png) no-repeat 0px -26px ;}
+.banner_5 .main .ding li .er{background:url(../images/clothesicon.png) no-repeat 0px -51px ;}
+.banner_5 .main .uu{background:#f5f5f5;height:190px;width:328px;}
+.banner_5 .main .left_left{width:165px;float:left}
+.banner_5 .main .left_left li{float:left;padding:0 9px;}
+.banner_5 .main .left_left span{font:16px/24px "宋体"; color:#666666;}
+.banner_5 .main .left_left a{font:14px/24px "宋体";margin-right:5px; color:#666666;}
+.banner_5 .main .left_right{}
+.banner_5 .main .left_right span{font:16px/24px "宋体";  color:#666666;}
+.banner_5 .main .left_right li{float:left;padding:0 9px;}
+.banner_5 .main .left_right a{font:14px/24px "宋体";margin-right:5px; color:#666666;}
+.banner_5 .main .zong{width:438px; float:left;font-size:0;}
+.banner_5 .main .zong .zhong{height:238px;width:440px;}
+.banner_5 .main .zong .haha{float:left;width:219px;height:238px;}
+.banner_5 .main .zong .ha{float:left;width:219px;height:238px;}
+.banner_5 .main .you{float:left;width:438px;}
+.banner_5 .main .you ul{font-size:0;}
+.banner_5 .main .you .shang li{float:left;widows:222px;height:118px;}
+.banner_5 .main .you .shang{float:left;} 
+
+.banner_5 .main .you .youbian{float:right;height:239px;}
+.banner_5 .main .you .youbian .jiuni{height:238px;float:left;}
+
+/*第六个模块——头部*/
+.banner_6{width:1210px;margin:0 auto;}
+.banner_6 .tou{float:left; height:42px; width:140px;}
+.banner_6 .tou p{}
+.banner_6 .tou .lou{width:36px;height:26px;background:url(../images/product_home_1.0.0.png) no-repeat 0px -40px;float:left;}
+.banner_6 .tou .lou:hover{background:url(../images/product_home_1.0.0.png) no-repeat 0px -5px ;}
+.banner_6 .nv ul{float:right;border:1px solid #ededed;border-bottom:0;}
+.banner_6 .nv li{float:left;text-align:center;position:relative;height:38px;}
+.banner_6 .nv li a{padding:0 17px;line-height:35px; border-left:1px solid #ffffff;border-right:1px solid #ffffff;border-top:3px solid #FFFFFF;z-index:2px; display:block;}
+.banner_6 .nv ul i{width:1px;height:14px;background:#cccccc;position:absolute;top:10px;left:0;}
+.banner_6 .nv ul li:hover a{border:3px solid red;border-bottom:0;border-left:1px solid #c81623;border-right:1px solid #c81623;margin-left:-1px; margin-top:-1px; position:relative; padding-left:18px; z-index:3; height:40px; line-height:38px; background:#fff;}
+/*第二个模块——内容*/
+.banner_6 .main{width:1210px;height:474px;margin:0 auto;border-top:1px solid #c81623;position:relative;}
+.banner_6 .main .zuo{float:left;width:210px;height:474px;}
+.banner_6 .main .donghua{font-size:0;position:relative;}
+.banner_6 .main .donghua img{width:210px;height:346px;}
+.banner_6 .main .donghua a:before{ width:70px;height:350px; background-image:radial-gradientc(left,rgba(248,248,248,1.00) 0%,rgba(248,162,164,1.00) 50%,rgba(227,244,184,1.00) 100%);position:absolute;top:1px;left:1px;display:block;}
+.banner_6 .main .ding{width:210px;height:92px;background:rgba(172,165,165,0.30);position:absolute;top:254px;left:0;}
+.banner_6 .main .ding  li{float:left;display:inline-block;line-height:48px;text-align:center;}
+.banner_6 .main .ding  a{margin:0 23px;}
+
+.banner_6 .main .ding li i{width:26px;height:26px;background:url(../images/cosmeticsicon.png) no-repeat 0px 0px ;display:inline-block;vertical-align:middle;}
+.banner_6 .main .ding li .yi{background:url(../images/cosmeticsicon.png) no-repeat 0px -26px ;}
+.banner_6 .main .ding li .er{background:url(../images/cosmeticsicon.png) no-repeat 0px -51px ;}
+.banner_6 .main .ding li .san{background:url(../images/cosmeticsicon.png) no-repeat 0px -78px ;}
+.banner_6 .main .uu{background:#f5f5f5;height:121px;width:210px;text-align:center;}
+.banner_6 .main .uu .sd{font:14px/25px "宋体";}
+.banner_6 .main .uu p{float:left;display:inline-block;margin:0 10px;color:#666666;}
+.banner_6 .main .uu a{color:#666666;}
+.banner_6 .main .zong{width:222px; float:left;font-size:0;}
+.banner_6 .main .you{float:left;width:340px;}
+.banner_6 .main .you ul{font-size:0;}
+.banner_6 .main .you li{}
+.banner_6 .main .zong .lele{width:440px;}
+.banner_6 .main .you .shang{float:left;} 
+.banner_6 .main .shang_1{width:219px;float:left;}
+.banner_6 .main .you .youbian{float:right;}
+.banner_6 .main .you .youbian .jiuni{height:314px;}
+

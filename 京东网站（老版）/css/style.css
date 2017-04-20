@@ -1,0 +1,80 @@
+@charset "utf-8";
+/* CSS Document */
+body,h1,h2,h3,h4,h5,h6,ol,ul,li,dt,dd,dl,p,inupt,textarea{margin:0;padding:0;}
+ul{list-style:none;}
+i{font-style:normal;font-family:arial,'微软雅黑',"宋体";color:#666666; }
+body{background:#fff;}
+input,img{border:none;}
+a{text-decoration:none;}
+.clear:after{content:'';display:block;clear:both;}
+.clear{*zoom:1;}
+
+.header{border-bottom:2px solid #b1191a;}
+.header .top{height:30px;background:#f1f1f1;}
+.header .top_in{width:1210px;margin:0 auto;}
+.header .top_in .left{float:left;font:12px/30px "宋体";}
+.header .top_in .right{float:right;}
+.header .top_in li{float:left}
+.header .top_in .hang{width:1px;height:12px;background:#DDDDDD;margin-top:9px;}
+.header .top_in a{padding:0 10px;font:12px/30px "宋体";color:#666666;}
+.header .top_in li i{ width:10px;height:5px; display:inline-block;overflow:hidden;font-size:16px;line-height:1px;margin-right:8px;}
+.header .top_in li .mian{color:#c81623;}
+.header .top_in li span{display:inline-block;width:15px;height:20px;background:url(../images/jd2015img.png) no-repeat;margin:6px 0 0 9px;float:left;}
+.header .top_in a:hover{color:#c81623;}
+.header .top_in li:hover span{background-position:0 -25px;}
+.header .top_in .bg:hover{background :#FFFFFF;}
+.header .min {width:1210px;margin:0 auto;}
+.header .min .logo{margin:20px 96px 0 0;float:left;}
+.header .min .text{float:left;margin-top:25px;}
+.header .min .text .sha{width:444px;height:32px;border:2px solid #b61d1d;padding-left:10px;line-height:32px;box-sizing:content-box;font-size:13px;float:left}
+.header .min .text .ni{width:80px;height:38px;background:#b61d1d;line-height:36px;color:#FFFFFF;float:left;}
+.header .min .gou{float:right;}
+.header .min .text a{font-size:12px;margin-right:11px;color:#666;line-height:28px;font-family:"宋体"；}
+.header .min .text a:hover{color:#c81623;}
+.header .min .text .qixi{color:#c81623;}
+.header .min .gou{width:139px;height:34px;border:1px solid #dfdfdf;font:12px/34px "宋体";color:#666;background:#f9f9f9;margin-top:25px;position:relative;}
+.header .min .gou a{display:inline-block;color:#666}
+.header .min .gou .che{width:28px;height:21px;background:url(../images/jd2015img.png) no-repeat 0 -53px; float:left;margin:5px 0 0 10px;}
+.header .min .gou i{font-family:consolas;float:right;margin-right:11px;font-size:15px;}
+.header .min .gou .shu{padding:0 5px; height:14px;background:#c81623;line-height:14px;text-align:center;color:#FFFFFF;border-radius:6px 6px 6px 0;position:absolute;top:-4px;right:19px;}
+.header .bot{width:1210px;margin:0 auto;margin-top:11px;}
+.header .bot .lei{width:200px;height:44px;background:#b1191a;line-height:44px;padding-left:10px;float:left;}
+.header .bot ul{float:left;}
+.header .bot li{float:left;padding:0 20px;height:44px;line-height:44px;}
+.header .bot a{color:#333333;}
+.header .bot a:hover{color:#d11623;}
+.banner{width:1210px;margin:0 auto;}
+.banner .left{float:left;}
+.banner .left ul{width:209px;height:466px;background:#c81623;border-left:1px solid #b61d1d}
+.banner .left ul li{padding-left:10px;position:relative;line-height:31px;height:31px;}
+.banner .left ul li h3{font:14px/31px '宋体';color:#FFFFFF;font-weight:normal;width:172px;overflow:hidden;height:31px;}
+.banner .left ul li a{color:#FFFFFF;}
+.banner .left ul li:hover{background:#F7F7F7;}
+.banner .left ul li:hover a{color:#c81623;}
+.banner .left ul li:hover h3{color:#c81623;}
+.banner .left ul li:hover i{color:#c81623;}
+.banner .left ul li i{position:absolute;top:0;right:11px;color:#FFFFFF;font-family:consolas;line-height:31px;h}
+.banner .top .two{position:relative;}
+.banner .top .two_1{width:1002px;height:465px;background:#F7F7F7;border:1px solid #c81623; border-left:0;position:absolute;top:-1px;left:209px;z-index:1;min-height:465px;display:none;}
+.banner .top .two_2{width:720px;float:left;}
+.banner .top .two_2_1{margin:20px 0 0 20px;}
+.banner .top .two_2_1 a{display:inline-block;padding:0 31px 0 8px;;background:#7c7171;font:12px/24px '微软雅黑';height:24px;color:#fff;position:relative;margin-right:5px;}
+.banner .top .two_2_1 i{display:inline-block;background:#5c5251;width:23px;height:23px;text-align:center;font:14px/23px constantia;position:absolute;top:0;right:0;color:#FFFFFF;}
+.banner .top .two_2_1 .xiao{background:#c81623;}
+.banner .top .two_2_2 dl{margin:11px 0 0 18px;width:707px;}
+.banner .top .two_2_2 dt{float:left;width:86px;position:relative;font-size:12px;font-weight:bold;color:#666;padding-top:5px;}
+.banner .top .two_2_2 dt a{padding:0 17px 0 0px;color:#666;width:55px;text-align:right;}
+.banner .top .two_2_2 dt i{font:14px/12px consolas;position:absolute;top:8px;right:17px;}
+.banner .top .two_2_2 dt:hover{color:#c71722;}
+.banner .top .two_2_2 dd{float:left;width:620px;border-bottom:1px solid #f2f2f2;padding-top:2px;margin-bottom:2px;}
+.banner .top .two_2_2 dd a{display:inline-block;border-left:1px solid #e5e5e5;padding:0 8px;font:14px/16px "微软雅黑";height:16px;color:#666666;}
+.banner .top .two_2_2 a:hover{color:#c71722;}
+
+
+
+
+
+.banner .top .two_3{width:168px;float:right;margin:20px 19px 0 0 ;}
+.banner .top .two_3 ul{padding-bottom:9px;}
+.banner .top .two_3 li{float:left;padding:0 1px 1px 0;font-size:0;}
+.banner .top .two_3 .tupian{font-size:0;padding-bottom:1px;}
